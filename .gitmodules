@@ -1,0 +1,6 @@
+[submodule "3rdparty/leveldb"]
+	path = 3rdparty/leveldb
+	url = https://code.google.com/p/leveldb/
+[submodule "3rdparty/leveldb-sharp"]
+	path = 3rdparty/leveldb-sharp
+	url = https://github.com/meebey/leveldb-sharp.git
