@@ -3,7 +3,7 @@ leveldb for Unity3D
 
 [leveldb] bindings for [Unity3D]. Uses [leveldb-sharp] by Mirco Bauer.
 
-`Makefile` automatically generates `unitypackage` container which includes binaries for Android and iOS.
+`Makefile` automatically generates `unitypackage` file which includes binaries for Android and iOS.
 
 Requirements
 ------------
@@ -11,8 +11,8 @@ Requirements
  - OS X (tested with 10.9)
  - [Android NDK]
  
- How to build
- ------------
+How to build
+------------
  
  	$ git clone https://github.com/parkerkane/leveldb-unity.git --recursive
  	$ cd leveldb-unity/
