@@ -1,6 +1,4 @@
 
-NDK=../../sdks/android-ndk-r9d/
-
 UNITYPACKAGE=$(BUILDPATH)/unitypackage
 ASSETS=$(UNITYPACKAGE)/Assets
 PLUGINS=$(ASSETS)/Plugins
