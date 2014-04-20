@@ -59,6 +59,10 @@ $(IOS_PLUGINS)/$(LIBRARY_NAME):
 
 	(cd $(LEVELDB_SRC) && $(ANDROID_SETTINGS) make clean)
 
+	mkdir -p $(ASSETS)/Editor
+
+	cp -r assets/ios/* $(ASSETS)/Editor
+
 $(LEVELDB_ASSETS):
 	mkdir -p $(LEVELDB_ASSETS)
 	cp 3rdparty/leveldb-sharp/*.cs $(LEVELDB_ASSETS)
