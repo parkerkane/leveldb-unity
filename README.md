@@ -20,6 +20,13 @@ How to build
 
 Compiled unity package file is now in `build` folder
 
+Todo
+----
+
+ - OSX support
+ - Windows support
+ - Windows Phone support
+
 License
 -------
 ```
